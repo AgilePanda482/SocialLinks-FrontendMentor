@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: var(--grey-900);
+    color: var(--white);
+}
+
+.main {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 80px;
+    padding: 2em;
+    border-radius: 20px;
+    background-color: var(--grey-800);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.profile {
+    height: 12vh;
+    width: 12vh;
+    margin-bottom: 12px;
+    border-radius: 50%;
+}
+
+.title {
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.city {
+    color: var(--green);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media a {
+    margin-bottom: 20px;
+    height: 48px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: var(--grey-700);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social-media a:hover {
+    background-color: var(--green);
+    color: var(--grey-800);
+}
+
+.social-media a:active {
+    background-color: var(--grey-800);
+    color: var(--white);
+}
+
+.mentor-icon {
+    width: 16px;
+    margin: 2px;
+}
+
+i { 
+    margin: 2px;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--green)
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+@media (max-width: 440px){
+    .container {
+        width: 40vh;
+    }
+
+    .social-media a {
+        width: 35vh;
+    }
+
+    footer{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 375px){
+    .container {
+        width: 100%;
+    }
+    
+    .social-media a{
+        width: 150%;
+    }
+}
+
+
+
+
