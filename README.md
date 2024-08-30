@@ -20,7 +20,7 @@ The challenge comes from the Frontend Mentor page.
 ### Screenshot
 ![Normal Design](./screenshots/PC.jpg)
 
-![Responsive Design](./screenshots/mobile.jpg)
+![Responsive Design](./screenshots/mobile.png)
 
 ### Links
 - Solution URL: [Link](https://sociallinks-agilepanda482.netlify.app/)
